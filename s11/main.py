@@ -65,7 +65,30 @@ def ler_glossario(floc):
 	
 	
 #raspa_paginas()
-
 conta_frequencia()
+
+'''
+def lista_de_exclosao (palavra, lista):
+        lista = []
+        palavra = ''
+        for l in lista:
+                if palavra in lista:
+                        continue
+                else:
+                        return palavra
+
+def palavra_em_texto ():
+        index = {}
+        for t in os.listdir ('textos'):
+                for p in palavras:
+                        if p in index:
+                                index[p] += [t]
+                        else:
+                                index[p] = [t]
+
+'''
+
+
+
 
 
